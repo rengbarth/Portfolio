@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<div id="colorlib-main">
+    <div class="colorlib-about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="aboutImg1" class="about-img animate-box" data-animate-effect="fadeInLeft">
+                        <div id="aboutImg2" class="about-img-2 animate-box" data-animate-effect="fadeInRight"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="about-desc">
+                        <span class="heading-meta">Welcome &amp; Introduction</span>
+                        <h3>My name is Raphael Engbarth</h3>
+                        <p>
+                            I am a 27 year old .Net Developer.<br />
+                            Prior to pursuing a career in .Net Development, I proudly served in the United States Army for 6 years. 
+                            While serving, I chose a path to be in the medical field as a combat medic. 
+                            Simultaneously I also started a career part time as a Automotive Technician and Fabricator. 
+                            Unfortunately when it came to converting a hobby into a profession, it took away the passion and spark from the hobby. 
+                            Luckily, I was introduced to a deeper level of Technology, where I discovered profound love for Development and Coding.
+                        </p>
+                        <p>
+                            Again, I welcome you to DevsOfRaph and hope you can appreciate my craftsmanship in .Net Development.
+                        </p>
+                    </div>
+                    <div class="fancy-collapse-panel">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">                                            
+                                            What I do?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p>
+                                                Whether it's Web Development, Coding, or anything Mechanical, I love the opportunity to dive into a project without hesistation. 
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>
+                                                Day by day, I challenge myself to grow as a person and as a professional of my trades.
+                                                </p>
+                                                <p>Attention to detail is <strong>KEY</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Why choose me?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <p>
+                                            With my past skills and experiences in troubleshooting, critical and analytical thinking,
+                                            unparalleled <strong>ATTENTION TO DETAIL</strong> will always be <strong>MY PRIORITY</strong>.
+                                        </p>
+                                        <p>
+                                            Feel free to view and/or download my Resume below:
+                                        </p>
+                                        <ul>
+                                            <li><a href="~/Content/Resume/Raphael Engbarth Resume IT.pdf" target="_blank">View/Download PDF Resume</a></li>
+                                            <li><a href="@Url.Action("Resume", "Portfolio")" target="_blank">Visit Page</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            My Experiences/Skills
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <p>
+                                            While attending Centriq Training, I have been introduced and exposed to a wide variety of content. 
+                                            Although I have not mastered any of the skills listed below, I am proficient and possess the ability to swiftly adapt and learn to grow into a successful developer.
+                                        </p>
+                                        <ul>
+                                            <li>.NET Framework</li>
+                                            <li>C#</li>
+                                            <li>Microsoft Visual Studio</li>
+                                            <li>Microsoft SQL Server Management Studio</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>ASP.NET MVC</li>
+                                            <li>LINQ</li>
+                                            <li>T-SQL</li>
+                                            <li>HTML5</li>
+                                            <li>CSS</li>
+                                            <li>JSON</li>
+                                            <li>Bootstrap</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="get-in-touch" class="colorlib-bg-color">
+        <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <h2>Get in Touch!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <p class="colorlib-lead">Please feel free to contact me through social media, by phone, or email.</p>
+                    <p><a href="~/Home/Contact" class="btn btn-primary btn-learn">Contact me!</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿#homePic1 {
+    background-image: url('images/Backgrounds/coding-computer-data-577585.jpg');
+}
+#homePic2 {
+    background-image: url('images/Backgrounds/computer-desktop-developer-113850.jpg');
+}
+#homePic3 {
+    background-image: url('images/Backgrounds/codes-coding-computer-247791.jpg');
+}
+#aboutImg1 {
+    background-image: url('images/Backgrounds/pexels-photo-373912.jpeg');
+}
+#aboutImg2 {
+    background-image: url('images/28946534_568397143517183_522872089_o.jpg');
+}
+.heading{
+    padding-top: 2em;
+    padding-left: 15em;
+}
+/*******************************Carousel CSS********************************************/
+.carousel {
+    background-color: white;
+    margin-top: 20px;
+}
+
+    .carousel .item {
+        min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    }
+
+        .carousel .item img {
+            margin: 0 auto; /* Align slide image horizontally center */
+        }
+
+.bs-example {
+    margin: 20px;
+}
+
+/*For carousel arrows*/
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/**{
+    transition: 3s;
+    transform: rotate(180deg);
+    -webkit-animation: spin 15s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0%{-webkit-transform: rotate(0deg); }
+    100% {-webkit-transform: rotate(360deg);}
+}*/
